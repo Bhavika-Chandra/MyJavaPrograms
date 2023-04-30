@@ -13,7 +13,7 @@ class Language extends frontend implements backend{
         System.out.println(language+" can be used as backend language");
     }
 }
-    class multipleInher{
+class multipleInher{
     public static void main(String[] args){
         Language java=new Language();
         java.connectServer();
